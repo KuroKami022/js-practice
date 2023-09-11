@@ -8,6 +8,8 @@ const btn = document.querySelector('#btnCalculation');
 
 const pResult = document.querySelector('#result');
 
+btn.addEventListener('click', btnClicked);
+
 function btnClicked() {
     const sumaInput = input1.value + input2.value;
 
